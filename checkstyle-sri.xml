@@ -33,7 +33,6 @@
 			</module>
 			<module name="JavadocMethod">
 				<property name="severity" value="error"/>
-				<property name="scope" value="protected"/>
 				<property name="allowMissingParamTags" value="true"/>
 				<property name="allowMissingReturnTag" value="true"/>
 				<property name="tokens" value="METHOD_DEF"/>
