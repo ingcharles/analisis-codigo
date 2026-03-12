@@ -27,12 +27,13 @@
 		<module name="JavadocStyle">
 			<property name="severity" value="error"/>
 			<property name="endOfSentenceFormat" value="([.?!][ \t\n\r\f
-				<])|($)"/>
+				])|($)"/>
 				<property name="checkHtml" value="false"/>
 				<metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Well formed java docs"/>
 			</module>
 			<module name="JavadocMethod">
 				<property name="severity" value="error"/>
+				<property name="scope" value="protected"/>
 				<property name="allowMissingParamTags" value="true"/>
 				<property name="allowMissingReturnTag" value="true"/>
 				<property name="tokens" value="METHOD_DEF"/>
