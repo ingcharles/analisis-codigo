@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <module name="Checker">
 	<property name="severity" value="warning"/>
 	<module name="TreeWalker">
@@ -27,7 +28,7 @@
 		<module name="JavadocStyle">
 			<property name="severity" value="error"/>
 			<property name="endOfSentenceFormat" value="([.?!][ \t\n\r\f
-				])|($)"/>
+				<])|($)"/>
 				<property name="checkHtml" value="false"/>
 				<metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Well formed java docs"/>
 			</module>
