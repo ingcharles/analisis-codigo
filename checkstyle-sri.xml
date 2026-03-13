@@ -38,7 +38,6 @@
     </module>
     <module name="JavadocMethod">
       <property name="severity" value="error"/>
-      <property name="scope" value="protected"/>
       <property name="allowMissingParamTags" value="true"/>
       <property name="allowMissingReturnTag" value="true"/>
       <property name="tokens" value="METHOD_DEF"/>
@@ -54,10 +53,10 @@
     </module>
     <module name="ImportOrder">
       <property name="option" value="top"/>
-      <property name="groups" value="/^java\./,javax,org,com"/>
+      <property name="groups" value="/^java\./,javax,jakarta,org,com,ec.gob.sri"/>
     </module>
     <module name="CustomImportOrder">
-      <property name="severity" value="warning"/>
+      <property name="severity" value="error"/>
     </module>
     <module name="DeclarationOrder"/>
     <module name="OneStatementPerLine">
